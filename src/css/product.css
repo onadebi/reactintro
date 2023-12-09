@@ -1,0 +1,38 @@
+/** Three major ways to reference elements in a HTML document.
+
+1. By id
+It works by using a unique id with a '#' symbol.
+2. By class
+Its not unique and can be used multiple times. It works by using a '.' symbol.
+
+class =""
+class in React is a reserved keyword. So we use 'className' instead.
+
+3. By tag name
+
+**/
+
+#sectionBody{
+    /*background-color: pink;*/
+}
+
+.tblProducts{
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+}
+
+.tblProducts tr{
+    background-color: #f8f8f8;
+}
+
+.tblProducts th{
+    background-color: #ececec;
+    color: black;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.tblProducts td{
+    border: 1px solid white;
+}
