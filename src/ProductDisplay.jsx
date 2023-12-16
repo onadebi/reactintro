@@ -26,6 +26,7 @@ function ProductDisplay() { // THe name of the Component function
                   </td>
                   <td>
                     $100
+                    <input type="number" placeholder="Enter Quantity" />
                     </td>
                   <td>
                     Handbag made of leather
@@ -37,6 +38,7 @@ function ProductDisplay() { // THe name of the Component function
                     </td>
                     <td>
                     $200
+                    <input type="number" placeholder="Enter Quantity" />
                     </td>
                     <td>
                       Crocodile leather handbag
@@ -48,6 +50,7 @@ function ProductDisplay() { // THe name of the Component function
                     </td>
                     <td>
                       $300
+                      <input type="number" placeholder="Enter Quantity" />
                     </td>
                     <td>
                       Emeald Ear rings

@@ -1,8 +1,10 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./pages/Layout";
+import Layout from "./pages/layouts/Layout";
 import Home from "./pages/Home";
 import ProductDisplay from "./ProductDisplay";
+import ContactLayout from "./pages/layouts/ContactLayout";
+import Contact from "./pages/Contact";
 
 //NPM: Node Package Manager
 
@@ -17,16 +19,20 @@ function App() {
     // The component Body
     <BrowserRouter>
       <Routes>
+
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="products" element={<ProductDisplay />} />
           <Route path="*" element={<Home />} />
+          <Route path='contact' element={<Contact/>} />
         </Route>
+
+
       </Routes>
     </BrowserRouter>
   );
 
-  // Pixels, Percentage %, em
+  // Pixels, Percentage %, em, inches, cm, pt, rem, vh, vw, vmin, vmax
 }
 
 export default App;
